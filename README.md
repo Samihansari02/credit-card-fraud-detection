@@ -26,7 +26,7 @@ This project analyzes and visualizes credit card transaction data to understand 
 
 ---
 
-## 🛠️ Process Followed
+## Process Followed
 
 1️. **Data Loading & Cleaning**
 - Loaded data with pandas.
@@ -51,13 +51,13 @@ This project analyzes and visualizes credit card transaction data to understand 
 
 ## Key Insights
 
-✅ Fraudulent transactions are **evenly distributed throughout the day**, unlike legitimate transactions, which show activity peaks during typical business hours.
+- Fraudulent transactions are **evenly distributed throughout the day**, unlike legitimate transactions, which show activity peaks during typical business hours.
 
-✅ Fraud can occur **at low-activity times (night hours)**, indicating fraudsters do not follow standard transaction patterns.
+- Fraud can occur **at low-activity times (night hours)**, indicating fraudsters do not follow standard transaction patterns.
 
-✅ Fraudulent transactions are **not always high-value**; there is variability, requiring attention to smaller transactions during fraud detection.
+- Fraudulent transactions are **not always high-value**; there is variability, requiring attention to smaller transactions during fraud detection.
 
-✅ **Severe class imbalance** suggests that model evaluation in the future should prioritize precision-recall and ROC-AUC rather than plain accuracy.
+- **Severe class imbalance** suggests that model evaluation in the future should prioritize precision-recall and ROC-AUC rather than plain accuracy.
 
 
 
